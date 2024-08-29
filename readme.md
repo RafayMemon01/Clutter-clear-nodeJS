@@ -22,18 +22,19 @@ This Node.js tool helps you organize files within a specified directory by autom
 3. **Install dependencies:**
    ```bash
    npm install
-Use code with caution.
+   ```
 
-Run the tool:
-Bash
-node organize_files.js
-Use code with caution.
+### Run the tool:
+4. **run the code**
+    ```bash
+    node main.js
+    ```
 
 (Replace organize_files.js with the actual filename if different.)
 Note: The tool currently sorts all files except those with extensions .js and .json (to avoid modifying the script itself). You can customize this behavior by modifying the code.
 
-How it works
+## How it works
 The script iterates through the specified directory and checks each file's extension. If the extension is not .js, .json, or empty, it creates a new directory with that name (jpg, pdf, etc.) if it doesn't exist, and then moves the file into that directory.
 
-Contributing
+## Contributing
 Feel free to fork the repository and submit pull requests with improvements or bug fixes.
